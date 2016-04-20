@@ -1,0 +1,10 @@
+Using the WeMos D1 Mini's "5V" pin:
+  This pin pulls power from the USB's 5V pin.
+  This pin can safely provide at least 700mA.
+  Too much current draw (i.e. hooking up a servo motor or other high current device) will cause the WeMos PCB traces to smoke (not good!)
+  So, limit the current through the 5V pin either before the USB input or after the 5V pin.
+
+Errors when trying to upload. 
+  Certain pins on the WeMos cannot be connected while trying to upload.
+  Try unplugging the GPIO pins or switching them to different pins.
+
